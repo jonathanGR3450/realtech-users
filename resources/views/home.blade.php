@@ -14,12 +14,6 @@
                         </div>
                     @endif
 
-                    @if (session('notification'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('notification') }}
-                        </div>
-                    @endif
-
                     {{ __('You are logged in!') }}
                 </div>
             </div>
